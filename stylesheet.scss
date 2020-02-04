@@ -146,34 +146,13 @@ body, html {
     
 }
 
-/* */
-
-.bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/1.jpg);
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#logo {
+/*#logo {
     color: #ffffff;
     position: absolute;
     top: 0;
     left: 0;
     margin: 15px;
-}
-
-#hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
+}*/
 
 /* Footer */
 #page-container {
@@ -209,6 +188,17 @@ body, html {
 }
 
 img {
-    width: 30%;
+    width: 100%;
 }
 
+#profile-pic-container {
+    text-align: center;
+}
+
+#profile-pic {
+    width: 40%;
+}
+
+h1, #role {
+    text-align: center;
+}
