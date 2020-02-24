@@ -258,4 +258,8 @@ h1, h2, #role {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
