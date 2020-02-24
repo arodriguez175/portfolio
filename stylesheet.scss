@@ -177,14 +177,12 @@ body, html {
 
 /**/
 
-#hero-text {
-    h1 {
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    h2 {
-        font-family: 'Raleway', sans-serif;
-    }
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, footer {
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -196,7 +194,9 @@ img {
 }
 
 #profile-pic {
-    width: 40%;
+    width: 30%;
+    border-radius: 15%;
+    border: thin solid #f6f6f6;
 }
 
 h1, h2, #role {
@@ -206,3 +206,10 @@ h1, h2, #role {
 #contact-holder, #skills-holder {
     text-align: center;
 }
+
+#contact-holder {
+    a {
+        text-decoration: none;
+    }
+}
+
