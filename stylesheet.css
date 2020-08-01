@@ -234,6 +234,7 @@ p, footer, a {
 
 img {
   width: 100%;
+  border: thin solid #f6f6f6;
 }
 
 #profile-pic-container {
