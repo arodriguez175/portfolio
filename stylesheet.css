@@ -252,4 +252,8 @@ h1, h2, #role {
   text-decoration: none;
 }
 
+hr {
+  width: 80%;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
