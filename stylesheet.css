@@ -227,6 +227,10 @@ p, footer, a {
 
 img {
   width: 100%;
+<<<<<<< HEAD
+=======
+  border-radius: 15%;
+>>>>>>> master
   border: thin solid #f6f6f6;
 }
 
