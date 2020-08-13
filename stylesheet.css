@@ -284,4 +284,12 @@ hr {
   width: 80%;
 }
 
+/* Contact Form */
+input {
+  border-color: #e6e6e6;
+  border-width: thin;
+  padding: 5px;
+  border-radius: 4px;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
