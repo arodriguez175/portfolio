@@ -226,7 +226,10 @@ h1, h2, #role {
 }
 
 hr {
+    border: none; 
+    height: 1px; 
     width: 80%;
+    background-color: #e6e6e6;
 }
 
 /* Contact Form */
@@ -236,6 +239,8 @@ hr {
         border-radius: 4px;
         background-color: #363636;
         margin-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
         
         label {
             color: #ffffff;
@@ -269,6 +274,13 @@ form {
         background-color: red;
         border: none;
         color: #ffffff;
+    }
+    
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #efefef;
+        width: 100%;
     }
 }
 
