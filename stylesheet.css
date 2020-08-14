@@ -285,14 +285,38 @@ hr {
 }
 
 /* Contact Form */
-input {
+#contact-holder .col-12 {
   border: 1px solid #e6e6e6;
-  padding: 5px;
   border-radius: 4px;
+  background-color: #363636;
+  margin-bottom: 30px;
+}
+#contact-holder .col-12 label {
+  color: #ffffff;
+}
+#contact-holder .col-12 a {
+  color: #ffffff;
 }
 
-textarea {
+form input {
+  width: 100%;
   border: 1px solid #e6e6e6;
+  padding: 10px;
+  border-radius: 4px;
+}
+form textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 10px;
+}
+form button {
+  padding: 15px;
+  width: 150px;
+  background-color: red;
+  border: none;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
